@@ -1,0 +1,128 @@
+
+/*-------------------General Css--------------------*/
+*, *:focus { outline: none !important; border-radius: 0; -o-border-radius: 0; -ms-border-radius: 0; -moz-border-radius: 0; -webkit-border-radius: 0; box-shadow: none !important; -o-box-shadow: none; -ms-box-shadow: none; -moz-box-shadow: none; -webkit-box-shadow: none; }
+a{display: inline-block; transition: all 0.3s; -o-transition: all 0.3s; -ms-transition: all 0.3s; -moz-transition: all 0.3s; -webkit-transition: all 0.3s; }
+a, a:hover, a:focus { outline: none; text-decoration: none; }
+html, body { height: 100%; }
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body{
+	color: #1C2645;
+	line-height: 1.2;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+}
+*{
+	margin: 0;
+}
+.btn:hover{
+	background-color: #1C2645;
+	color: #fff;
+}
+.btn{
+	font-size: 16px;
+    border: 1px solid #1C2645;
+    color: #1C2645;
+    background-color: transparent;
+    height: 45px;
+    min-width: 170px;
+    line-height: 45px;
+}
+.container{
+	max-width: 1140px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+.site-footer,
+.site-header{
+	height: 80px;
+	color: #fff;
+	text-align: center;
+	line-height: 80px;
+	background-color: #1C2645;
+}
+
+/* 404 */
+.page-not-found-section{
+	position: relative;
+	padding: 80px 0;
+}
+.page-not-found-block{
+	text-align: center;	
+}
+.page-not-found-block h1 {
+    max-width: 100%;
+    font-size: 220px;
+    margin-bottom: 0;
+    line-height: 1;
+    /*text-shadow: 0 0 20px #051b2f;*/
+    font-weight: 400;
+}
+.page-not-found-block .sub-title-text{
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    /*text-shadow: 0 0 20px #000;*/
+}
+.page-not-found-block .not-fount-text {
+    /*text-shadow: 0 0 20px #000;*/
+    font-size: 46px;
+    line-height: 1.2;
+    margin-bottom: 5px;
+}
+.page-not-found-block .search-again {
+    font-size: 28px;
+    line-height: 1.5;
+    /*text-shadow: 0 0 20px #000;*/
+    margin-bottom: 25px;
+}
+
+/* no-scroll */
+/*.no-scroll .page-not-found-section{
+	height: 100vh;
+	padding: 0;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+}
+.no-scroll .site-footer{
+	bottom: 0;
+}
+.no-scroll .site-footer,
+.no-scroll .site-header{
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+}
+
+@media(max-height: 600px){
+	.no-scroll .page-not-found-section{
+		min-height: 550px;
+		padding: 50px 0;
+	}
+}
+*/
+/* no-scroll */
+
+@media(max-width: 1023px){
+	.page-not-found-block h1{
+		font-size: 180px;
+	}
+}
+@media(max-width: 767px){
+	.page-not-found-block h1{
+		font-size: 120px;
+	}
+	.page-not-found-block .sub-title-text{
+		font-size: 30px;
+	}
+	.page-not-found-block .not-fount-text{
+		font-size: 32px;
+	}
+	.page-not-found-block .search-again{
+		font-size: 20px;
+	}
+}
+
+/* 404 */
